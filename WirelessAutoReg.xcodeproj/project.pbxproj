@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545534191AF05676001E927C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 545534181AF05676001E927C /* main.m */; };
+		5455341C1AF05676001E927C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5455341B1AF05676001E927C /* AppDelegate.m */; };
+		5455341F1AF05676001E927C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5455341E1AF05676001E927C /* ViewController.m */; };
+		545534221AF05676001E927C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545534201AF05676001E927C /* Main.storyboard */; };
+		545534241AF05676001E927C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545534231AF05676001E927C /* Images.xcassets */; };
+		545534271AF05676001E927C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545534251AF05676001E927C /* LaunchScreen.xib */; };
+		545534331AF05676001E927C /* WirelessAutoRegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545534321AF05676001E927C /* WirelessAutoRegTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5455342D1AF05676001E927C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5455340B1AF05676001E927C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545534121AF05676001E927C;
+			remoteInfo = WirelessAutoReg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		545534131AF05676001E927C /* WirelessAutoReg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirelessAutoReg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545534171AF05676001E927C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545534181AF05676001E927C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5455341A1AF05676001E927C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5455341B1AF05676001E927C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5455341D1AF05676001E927C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5455341E1AF05676001E927C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		545534211AF05676001E927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545534231AF05676001E927C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		545534261AF05676001E927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5455342C1AF05676001E927C /* WirelessAutoRegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessAutoRegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		545534311AF05676001E927C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545534321AF05676001E927C /* WirelessAutoRegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessAutoRegTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545534101AF05676001E927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545534291AF05676001E927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5455340A1AF05676001E927C = {
+			isa = PBXGroup;
+			children = (
+				545534151AF05676001E927C /* WirelessAutoReg */,
+				5455342F1AF05676001E927C /* WirelessAutoRegTests */,
+				545534141AF05676001E927C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545534141AF05676001E927C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545534131AF05676001E927C /* WirelessAutoReg.app */,
+				5455342C1AF05676001E927C /* WirelessAutoRegTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545534151AF05676001E927C /* WirelessAutoReg */ = {
+			isa = PBXGroup;
+			children = (
+				5455341A1AF05676001E927C /* AppDelegate.h */,
+				5455341B1AF05676001E927C /* AppDelegate.m */,
+				5455341D1AF05676001E927C /* ViewController.h */,
+				5455341E1AF05676001E927C /* ViewController.m */,
+				545534201AF05676001E927C /* Main.storyboard */,
+				545534231AF05676001E927C /* Images.xcassets */,
+				545534251AF05676001E927C /* LaunchScreen.xib */,
+				545534161AF05676001E927C /* Supporting Files */,
+			);
+			path = WirelessAutoReg;
+			sourceTree = "<group>";
+		};
+		545534161AF05676001E927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				545534171AF05676001E927C /* Info.plist */,
+				545534181AF05676001E927C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5455342F1AF05676001E927C /* WirelessAutoRegTests */ = {
+			isa = PBXGroup;
+			children = (
+				545534321AF05676001E927C /* WirelessAutoRegTests.m */,
+				545534301AF05676001E927C /* Supporting Files */,
+			);
+			path = WirelessAutoRegTests;
+			sourceTree = "<group>";
+		};
+		545534301AF05676001E927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				545534311AF05676001E927C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545534121AF05676001E927C /* WirelessAutoReg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545534361AF05676001E927C /* Build configuration list for PBXNativeTarget "WirelessAutoReg" */;
+			buildPhases = (
+				5455340F1AF05676001E927C /* Sources */,
+				545534101AF05676001E927C /* Frameworks */,
+				545534111AF05676001E927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirelessAutoReg;
+			productName = WirelessAutoReg;
+			productReference = 545534131AF05676001E927C /* WirelessAutoReg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5455342B1AF05676001E927C /* WirelessAutoRegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545534391AF05676001E927C /* Build configuration list for PBXNativeTarget "WirelessAutoRegTests" */;
+			buildPhases = (
+				545534281AF05676001E927C /* Sources */,
+				545534291AF05676001E927C /* Frameworks */,
+				5455342A1AF05676001E927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5455342E1AF05676001E927C /* PBXTargetDependency */,
+			);
+			name = WirelessAutoRegTests;
+			productName = WirelessAutoRegTests;
+			productReference = 5455342C1AF05676001E927C /* WirelessAutoRegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5455340B1AF05676001E927C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "xuan chen";
+				TargetAttributes = {
+					545534121AF05676001E927C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5455342B1AF05676001E927C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 545534121AF05676001E927C;
+					};
+				};
+			};
+			buildConfigurationList = 5455340E1AF05676001E927C /* Build configuration list for PBXProject "WirelessAutoReg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5455340A1AF05676001E927C;
+			productRefGroup = 545534141AF05676001E927C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545534121AF05676001E927C /* WirelessAutoReg */,
+				5455342B1AF05676001E927C /* WirelessAutoRegTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545534111AF05676001E927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545534221AF05676001E927C /* Main.storyboard in Resources */,
+				545534271AF05676001E927C /* LaunchScreen.xib in Resources */,
+				545534241AF05676001E927C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5455342A1AF05676001E927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5455340F1AF05676001E927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5455341F1AF05676001E927C /* ViewController.m in Sources */,
+				5455341C1AF05676001E927C /* AppDelegate.m in Sources */,
+				545534191AF05676001E927C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545534281AF05676001E927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545534331AF05676001E927C /* WirelessAutoRegTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5455342E1AF05676001E927C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545534121AF05676001E927C /* WirelessAutoReg */;
+			targetProxy = 5455342D1AF05676001E927C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545534201AF05676001E927C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545534211AF05676001E927C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		545534251AF05676001E927C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545534261AF05676001E927C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545534341AF05676001E927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545534351AF05676001E927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545534371AF05676001E927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WirelessAutoReg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		545534381AF05676001E927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WirelessAutoReg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5455343A1AF05676001E927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WirelessAutoRegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessAutoReg.app/WirelessAutoReg";
+			};
+			name = Debug;
+		};
+		5455343B1AF05676001E927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WirelessAutoRegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessAutoReg.app/WirelessAutoReg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5455340E1AF05676001E927C /* Build configuration list for PBXProject "WirelessAutoReg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545534341AF05676001E927C /* Debug */,
+				545534351AF05676001E927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545534361AF05676001E927C /* Build configuration list for PBXNativeTarget "WirelessAutoReg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545534371AF05676001E927C /* Debug */,
+				545534381AF05676001E927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		545534391AF05676001E927C /* Build configuration list for PBXNativeTarget "WirelessAutoRegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5455343A1AF05676001E927C /* Debug */,
+				5455343B1AF05676001E927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5455340B1AF05676001E927C /* Project object */;
+}
