@@ -14,6 +14,7 @@
 		545534241AF05676001E927C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545534231AF05676001E927C /* Images.xcassets */; };
 		545534271AF05676001E927C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545534251AF05676001E927C /* LaunchScreen.xib */; };
 		545534331AF05676001E927C /* WirelessAutoRegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545534321AF05676001E927C /* WirelessAutoRegTests.m */; };
+		545534411AF1D51A001E927C /* WirelessHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 545534401AF1D51A001E927C /* WirelessHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5455342C1AF05676001E927C /* WirelessAutoRegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessAutoRegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		545534311AF05676001E927C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545534321AF05676001E927C /* WirelessAutoRegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WirelessAutoRegTests.m; sourceTree = "<group>"; };
+		5455343C1AF1B585001E927C /* WirelessHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WirelessHeader.h; sourceTree = "<group>"; };
+		545534401AF1D51A001E927C /* WirelessHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WirelessHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		545534151AF05676001E927C /* WirelessAutoReg */ = {
 			isa = PBXGroup;
 			children = (
+				5455343F1AF1D4E7001E927C /* Fundation */,
 				5455341A1AF05676001E927C /* AppDelegate.h */,
 				5455341B1AF05676001E927C /* AppDelegate.m */,
 				5455341D1AF05676001E927C /* ViewController.h */,
@@ -117,6 +121,15 @@
 				545534311AF05676001E927C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5455343F1AF1D4E7001E927C /* Fundation */ = {
+			isa = PBXGroup;
+			children = (
+				5455343C1AF1B585001E927C /* WirelessHeader.h */,
+				545534401AF1D51A001E927C /* WirelessHeader.m */,
+			);
+			name = Fundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				5455341F1AF05676001E927C /* ViewController.m in Sources */,
 				5455341C1AF05676001E927C /* AppDelegate.m in Sources */,
+				545534411AF1D51A001E927C /* WirelessHeader.m in Sources */,
 				545534191AF05676001E927C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +432,7 @@
 				545534381AF05676001E927C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		545534391AF05676001E927C /* Build configuration list for PBXNativeTarget "WirelessAutoRegTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				5455343B1AF05676001E927C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
